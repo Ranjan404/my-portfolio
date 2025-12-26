@@ -1,0 +1,126 @@
+{
+  "id": "coding-bundle",
+  "subtitle": "I build high-performance, type-safe applications with Next.js and TypeScript. I turn complex data flow challenges into seamless user experiences, delivering 90+ Lighthouse scores and production-ready, stable code.",
+  "badge": "Frontend / MERN Stack </>",
+  "gradient": "from-green-400 via-cyan-400 to-blue-500",
+  "buttonColor": "from-green-500 to-cyan-500",
+  "image": "/Ranjan-front-end-developer.webp",
+  "experience": [
+    {
+      "title": " Collaborating with Backend Developer on Client Projects",
+      "location": "Freelance Frontend Developer",
+      "duration": "Jul 2025 - Present",
+      "description": [
+        "Delivered 3 production-grade client projects, achieving a 20% reduction in page load times by implementing Next.js optimization techniques, fully type-safe UIs using TypeScript and TanStack Query.",
+        "Partnered with backend developers to integrate complex RESTful APIs, establishing a professional workflow with Husky and ESLint to maintain code consistency."
+      ],
+      "icon": "💻"
+    }
+  ],
+  "education": [
+    {
+      "location": "Dedicated full-time effort to mastering modern technologies with professional coding standards.",
+      "duration": "2023 - Present",
+      "title": "Frontend Specialization & Modern Web Development ",
+      "icon": "💻"
+    },
+    {
+      "location": "Bachelor of Technology (B.Tech)",
+      "duration": "2017 - 2021",
+      "title": "Shree Sidhi Vinayak Institute of Technology, Bareilly",
+      "icon": "🎓"
+    },
+    {
+      "location": "Higher Secondary Certificate",
+      "duration": "End in 2017",
+      "title": "R.D.M (10+2) Intermediate School",
+      "icon": "🏫"
+    }
+  ],
+  "techIcons": [
+    {
+      "name": "Redux",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      "size": "large",
+      "angle": 0,
+      "tooltipColor": "#764ABC"
+    },
+    {
+      "name": "Axios",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/axios/axios-plain.svg",
+      "size": "large",
+      "angle": 102,
+      "tooltipColor": "#5A29E4"
+    },
+    {
+      "name": "TanStack Query",
+      "src": "https://raw.githubusercontent.com/TanStack/query/main/media/emblem-light.svg",
+      "size": "large",
+      "angle": 153,
+      "tooltipColor": "#FF4154"
+    },
+    {
+      "name": "Material UI",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+      "size": "large",
+      "angle": 204,
+      "tooltipColor": "#0081CB"
+    },
+    {
+      "name": "AI",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/illustrator/illustrator-plain.svg",
+      "size": "large",
+      "angle": 255,
+      "tooltipColor": "#FF9A00"
+    },
+    {
+      "name": "Next.js",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg",
+      "size": "large",
+      "angle": 306,
+      "tooltipColor": "#000000"
+    },
+    {
+      "name": "HTML",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "size": "small",
+      "angle": 0,
+      "tooltipColor": "#E34F26"
+    },
+    {
+      "name": "CSS",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "size": "small",
+      "angle": 60,
+      "tooltipColor": "#1572B6"
+    },
+    {
+      "name": "JavaScript",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "size": "small",
+      "angle": 120,
+      "tooltipColor": "#F7DF1E"
+    },
+    {
+      "name": "React",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "size": "small",
+      "angle": 180,
+      "tooltipColor": "#61DAFB"
+    },
+    {
+      "name": "Tailwind CSS",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/tailwindcss/tailwindcss-original.svg",
+      "size": "small",
+      "angle": 240,
+      "tooltipColor": "#38B2AC"
+    },
+    {
+      "name": "TypeScript",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "size": "small",
+      "angle": 300,
+      "tooltipColor": "#3178C6"
+    }
+  ]
+}
