@@ -35,7 +35,7 @@ const projects = [
     ],
     image: "/Shaadipros.webp",
     liveDemo: "https://ezansi.onrender.com/",
-    githubRepo: "https://github.com/SachinPro007/nextjs_full_stack_ai",
+    githubRepo: "#",
     projectColor: "#df9c19",
   },
   {
@@ -57,7 +57,7 @@ const projects = [
     ],
     image: "/Viai.webp",
     liveDemo: "https://full-stack-todo-gray.vercel.app/",
-    githubRepo: "https://github.com/SachinPro007/full_stack_todo",
+    githubRepo: "#",
     projectColor: "#7c3aed",
   },
   {
@@ -79,7 +79,7 @@ const projects = [
     ],
     image: "/fliz.webp",
     liveDemo: "https://shopease-ecomm.netlify.app",
-    githubRepo: "https://github.com/SachinPro007/ShopEase_E-Commerce",
+    githubRepo: "#",
     projectColor: "#fec08c",
   },
   {
@@ -96,8 +96,8 @@ const projects = [
       "AI",
     ],
     image: "/My-Portfolio.webp",
-    liveDemo: "https://sachinpro.vercel.app/",
-    githubRepo: "https://github.com/SachinPro007/My-Portfolio",
+    liveDemo: "https://ranjangupta.vercel.app/",
+    githubRepo: "https://github.com/Ranjan404/my-portfolio",
     projectColor: "#EA580C",
   },
   {
@@ -119,7 +119,7 @@ const projects = [
     ],
     image: "/Abdomax.webp",
     liveDemo: "https://shopease-ecomm.netlify.app",
-    githubRepo: "https://github.com/SachinPro007/ShopEase_E-Commerce",
+    githubRepo: "#",
     projectColor: "#95db32",
   },
   {
@@ -136,7 +136,7 @@ const projects = [
     ],
     image: "/tickit.webp",
     liveDemo: "https://click-task.netlify.app",
-    githubRepo: "https://github.com/SachinPro007/ClickTask",
+    githubRepo: "#",
     projectColor: "#000000",
   },
 ];

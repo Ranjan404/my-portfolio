@@ -23,8 +23,8 @@ const FooterSocial = () => {
     {
       id: "github",
       icon: FiGithub,
-      label: "SachinPro007",
-      url: "https://github.com/SachinPro007",
+      label: "Ranjan404",
+      url: "https://github.com/Ranjan404",
       color: themeColors.text,
     },
   ];

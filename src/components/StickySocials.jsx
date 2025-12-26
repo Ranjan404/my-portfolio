@@ -40,7 +40,7 @@ const FloatSocialIcons = () => {
       icon: FaGithub,
       name: "GitHub",
       color: "#181717",
-      url: "https://github.com/SachinPro007",
+      url: "https://github.com/Ranjan404",
     },
     {
       icon: FaLinkedin,
