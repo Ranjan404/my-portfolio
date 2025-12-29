@@ -294,7 +294,7 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
                 >
                   <div className="flex items-center">
                     <div
-                      className="w-10 h-10 rounded-full flex items-center justify-center mr-3"
+                      className="w-10 h-10 rounded-full flex items-center justify-center mr-3 cursor-pointer"
                       style={{ backgroundColor: `${project.projectColor}20` }}
                     >
                       <svg
@@ -342,7 +342,7 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
                 </motion.button>
 
                 <motion.button
-                  className="w-full flex items-center justify-between p-4 rounded-xl border transition-all duration-200 group"
+                  className="w-full items-center justify-between p-4 rounded-xl border transition-all duration-200 group hidden"
                   style={{
                     borderColor: themeColors.border,
                     backgroundColor: `${themeColors.border}08`,
