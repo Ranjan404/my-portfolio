@@ -6,12 +6,12 @@ import ProjectCard from "./ProjectCard";
 const projects = [
   {
     title: "Speak Feed Project",
-    subtitle: "Coming Soon",
+    subtitle: "Interactive Feedback & Speaker Platform",
     description:
-      "I'm currently architecting a new, full-stack MERN application with a Next.js 16 frontend. This project will focus on scalable real-time features and advanced backend architecture. The initial code will be pushed to GitHub soon — stay tuned!",
+      "A modern platform aimed at helping public speakers receive live feedback, manage referrals, and connect with audiences. Inspired by the SPEAKFEED trademark and platform concept — a web application focused on empowering speakers with tools to rate, book, and improve their speaking skills and presence.",
     tags: ["Ongoing", "MERN Stack", "Next.js", "TypeScript"],
     image: "/speakfeed.webp",
-    liveDemo: "#",
+    liveDemo: "https://speakfeed.com/en",
     githubRepo: "#",
     projectColor: "#eb631b",
   },
@@ -19,7 +19,7 @@ const projects = [
     title: "ShaadiPros Platform",
     subtitle: "Real-Time Blog Engine with Next.js 16 & Gemini AI",
     description:
-      "Architecting a Full-Stack, AI-Native Platform (Ezensi): Building a real-time, serverless backend using Convex and integrating Google's GenAI SDKs to power generative AI writing assistance.  Containerized the application using Docker (Multi-Stage Builds) to reduce image size to 276MB and established a CI/CD pipeline on Render for automated deployments. Enforced code quality with Husky/ESLint and secured data integrity with Zod. ",
+      "A full-stack, AI-native platform providing a dynamic real-time blog engine, content suggestions, and seamless publishing workflows. Integrated with Convex serverless backend, Google Gemini AI for content generation, and a solid CI/CD setup enabling fast deployments and code reliability.",
     tags: [
       "Next.js 16",
       "React 19",
@@ -34,15 +34,15 @@ const projects = [
       "Docker",
     ],
     image: "/Shaadipros.webp",
-    liveDemo: "https://ezansi.onrender.com/",
+    liveDemo: "https://shaadipros.com/",
     githubRepo: "#",
     projectColor: "#df9c19",
   },
   {
     title: "VIAI",
-    subtitle: "Advanced Security & Architecture Demo",
+    subtitle: "AI-Powered Athletic & Performance Tech",
     description:
-      "This project uses a simple 'Todo App' concept to demonstrate a complex, production-grade architecture. Built on Next.js (Server Actions) and MySQL, the focus is on advanced, tamper-proof security, custom HMAC cookie-based auth, and strict user data isolation—proving how to build a multi-tenant application securely from scratch.",
+      "A tech demo showcasing advanced wearable AI performance tracking and coaching tools. Built to integrate smart hardware with real-time AI analytics for athletes — offering performance insights, training indicators, and data visualization to help users optimize physical activity and reach goals.",
     tags: [
       "Next.js",
       "MySQL",
@@ -56,15 +56,15 @@ const projects = [
       "Lint-Staged",
     ],
     image: "/Viai.webp",
-    liveDemo: "https://full-stack-todo-gray.vercel.app/",
+    liveDemo: "https://viainow.com/",
     githubRepo: "#",
     projectColor: "#7c3aed",
   },
   {
     title: "Fliz",
-    subtitle: "E-Commerce Site - Frontend",
+    subtitle: "Heavy Equipment & Rental Marketplace",
     description:
-      "Built a blazing-fast eCommerce site from scratch—streamlined product discovery and checkout for a seamless user journey. Achieved 90+ Lighthouse scores with sub-second load times.",
+      "A high-performance rental platform connecting businesses and individuals with heavy equipment providers. Focused on seamless discovery, secure payments, and logistics tracking, the site delivers a streamlined experience for selecting and booking machinery online.",
     tags: [
       "React",
       "JavaScript",
@@ -78,21 +78,21 @@ const projects = [
       "React Slick",
     ],
     image: "/fliz.webp",
-    liveDemo: "https://shopease-ecomm.netlify.app",
+    liveDemo: "https://fliz.com.sa/en/renter/companies",
     githubRepo: "#",
     projectColor: "#fec08c",
   },
   {
     title: "Modern Portfolio",
-    subtitle: "Ranjan - Frontend Developer",
+    subtitle: "Ranjan — Frontend Developer",
     description:
-      "Designed and built a fully custom, animation-rich portfolio to leave a strong first impression with custom theme controls: light/dark toggle + custom color, so visitors can personalize their experience...!",
+      "A personalized portfolio showcasing skills, projects, and design sensibilities with interactive animations, customizable theme settings (light/dark + colors), and smooth navigation to present a distinctive online identity.",
     tags: [
       "React",
       "Tailwind CSS",
       "Framer Motion",
       "Context API",
-      "Email Js",
+      "Email JS",
       "AI",
     ],
     image: "/My-Portfolio.webp",
@@ -102,9 +102,9 @@ const projects = [
   },
   {
     title: "Abdomax",
-    subtitle: "E-Commerce Site - Frontend",
+    subtitle: "Medical & Health Equipment Services",
     description:
-      "Built a blazing-fast eCommerce site from scratch—streamlined product discovery and checkout for a seamless user journey. Achieved 90+ Lighthouse scores with sub-second load times.",
+      "Frontend of a modern healthcare support portal designed to simplify scheduling, monitoring, and usage tracking for medical machines. Built for responsive performance and engaging discovery experiences with optimized loading speeds.",
     tags: [
       "React",
       "JavaScript",
@@ -118,24 +118,24 @@ const projects = [
       "React Slick",
     ],
     image: "/Abdomax.webp",
-    liveDemo: "https://shopease-ecomm.netlify.app",
+    liveDemo: "https://www.abdomax.ch/fr",
     githubRepo: "#",
     projectColor: "#95db32",
   },
   {
     title: "Tick'It",
-    subtitle: "Employee Task Management",
+    subtitle: "Facility Task & Workflow Management",
     description:
-      "Built a responsive task management app with role-based dashboards, real-time updates, and smart alerts—all running without a backend. Designed for a smooth UX with dark mode, toast notifications, and polished UI transitions.",
+      "A responsive task tracking and management platform designed to coordinate tasks across teams with real-time updates, automated alerts, role-based views, and polished UI transitions — aimed at improving productivity and accountability without a backend.",
     tags: [
       "React",
       "JavaScript",
       "Tailwind CSS",
-      "Context APi",
+      "Context API",
       "React Toastify",
     ],
     image: "/tickit.webp",
-    liveDemo: "https://click-task.netlify.app",
+    liveDemo: "https://tickit.co/",
     githubRepo: "#",
     projectColor: "#000000",
   },
