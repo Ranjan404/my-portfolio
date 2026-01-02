@@ -22,19 +22,19 @@ function Form({ itemVariants }) {
 
     emailjs
       .sendForm(
-        "service_a0f3apm", // EmailJS service ID
-        "template_r55v18y", // EmailJS template ID
+        "service_6vpajng", // EmailJS service ID
+        "template_gyok11t", // EmailJS template ID
         form.current,
         {
-          publicKey: "C4-lqD5NF19-WgYUq", // EmailJS publicKey
+          publicKey: "onLu9CQ1Ege-eqbbc", // EmailJS publicKey
         }
       )
       .then(() => {
-        "service_a0f3apm", // EmailJS service ID
-          "template_ujk5y3i", // EmailJS template ID
+        "service_6vpajng", // EmailJS service ID
+          "template_gyok11t", // EmailJS template ID
           form.current,
           {
-            publicKey: "C4-lqD5NF19-WgYUq", // EmailJS publicKey
+            publicKey: "onLu9CQ1Ege-eqbbc", // EmailJS publicKey
           };
       })
       .then(

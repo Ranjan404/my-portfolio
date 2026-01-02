@@ -5,7 +5,7 @@
   },
   {
     "question": "What kind of projects have you built?",
-    "answer": "I build production-ready systems, not just hobby projects. My flagship app, 'Ezensi' (Live), is an AI-Native Blog Platform containerized with Docker and deployed via CI/CD on Render. I've also architected 'ShopEase,' a high-performance eCommerce app with advanced caching, and a secure Next.js full-stack system with custom auth."
+    "answer": "I've built several production-grade applications including a fliz multilingual website and shadipros and speakfeed, a full-stack eCommerce platform, and a blog system. My projects are built with modern technologies like React, Next.js, and Node.js, and follow best practices in performance, security, and user experience. I focus on creating responsive, accessible, and scalable web applications that solve real-world problems."
   },
   {
     "question": "Do you have experience with DevOps and Deployment?",
