@@ -9,7 +9,7 @@ const projects = [
     subtitle: "Interactive Feedback & Speaker Platform",
     description:
       "A modern platform aimed at helping public speakers receive live feedback, manage referrals, and connect with audiences. Inspired by the SPEAKFEED trademark and platform concept — a web application focused on empowering speakers with tools to rate, book, and improve their speaking skills and presence.",
-    tags: ["Ongoing", "MERN Stack", "Next.js", "TypeScript"],
+    tags: ["Ongoing", "Next.js", "TypeScript"],
     image: "/speakfeed.webp",
     liveDemo: "https://speakfeed.com/en",
     githubRepo: "#",

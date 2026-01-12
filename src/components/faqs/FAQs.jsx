@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { motion, AnimatePresence } from "framer-motion";
 import SectionHeader from "../SectionHeader";
-import faqs from '../../data/faqs.json'
+import faqs from "../../data/faqs.json";
 
 // Utility function to highlight keywords
 const highlightKeywords = (text, keywords, themeColors) => {
@@ -17,12 +17,10 @@ const FAQSection = () => {
   const sectionRef = useRef(null);
   const [cursor, setCursor] = useState({ x: 0, y: 0 });
   const [open, setOpen] = useState(false);
-    
-  
 
   useEffect(() => {
     const handleMouseMove = (e) => {
-      const rect = sectionRef.current.getBoundingClientRect();     
+      const rect = sectionRef.current.getBoundingClientRect();
       setCursor({
         x: e.clientX - rect.left,
         y: e.clientY - rect.top,
@@ -107,7 +105,7 @@ const FAQSection = () => {
 };
 
 const FAQItem = ({ faq, themeColors, index, open, setOpen }) => {
-  const keywords = [    
+  const keywords = [
     "Auth.js, Bcrypt, and JWTs",
     "Next.js Server Actions",
     "Next.js ecosystem",
@@ -118,9 +116,9 @@ const FAQItem = ({ faq, themeColors, index, open, setOpen }) => {
     "TanStack Query caching strategies",
     "efficient state management",
     "Next.js App Router patterns",
-    "MERN application with production-grade workflows",
+    // "MERN application with production-grade workflows",
     "advanced full-stack architecture",
-    "both MongoDB in the MERN stack and external MySQL databases",
+    // "both MongoDB in the MERN stack and external MySQL databases",
     "AI-Native Blog Platform",
     "Google's GenAI SDKs",
     "eCommerce UI with advanced caching",
@@ -138,7 +136,7 @@ const FAQItem = ({ faq, themeColors, index, open, setOpen }) => {
     "React",
     "Zod",
     "MySQL",
-    "MERN stack",
+    // "MERN stack",
     "Next.js",
     "TanStack Query",
     "Redux Toolkit",
@@ -165,7 +163,7 @@ const FAQItem = ({ faq, themeColors, index, open, setOpen }) => {
     "custom cookie-based sessions",
     "Bcrypt for password hashing",
     "OAuth integrations",
-    "full-stack MERN experience",
+    // "full-stack MERN experience",
     "built production-grade full-stack applications",
     "Secure Todo Application with custom authentication",
     "Portfolio with custom theming",
@@ -197,7 +195,13 @@ const FAQItem = ({ faq, themeColors, index, open, setOpen }) => {
           animate={{ rotate: open === index ? 45 : 0 }}
           className="transition-transform duration-300"
         >
-          <svg width="18" height="18" stroke="currentColor" fill="none" strokeWidth="2">
+          <svg
+            width="18"
+            height="18"
+            stroke="currentColor"
+            fill="none"
+            strokeWidth="2"
+          >
             <path d="M12 5v14M5 12h14" />
           </svg>
         </motion.span>

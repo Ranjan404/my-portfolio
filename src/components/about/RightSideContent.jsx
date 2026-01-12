@@ -53,12 +53,12 @@ function RightSideContent() {
                 Server Actions and SSR for maximum performance and SEO.
               </li>
 
-              <li>
+              {/* <li>
                 <Highlight>MERN Stack, MongoDB, Node.js, Convex</Highlight>:
                 Building robust backend architectures. I specialize in both
                 traditional REST APIs (Express/Mongo) and modern serverless
                 backends for flexible full-stack solutions.
-              </li>
+              </li> */}
 
               <li>
                 <Highlight>Docker, CI/CD, Render</Highlight>:{" "}
@@ -130,19 +130,21 @@ function RightSideContent() {
             Upcoming Learning Goals
           </h4>
           <div className="flex flex-wrap gap-2">
-            {["Frontend Specialization", "Modern Web Development"].map((item, i) => (
-              <span
-                key={i}
-                className="px-3 py-1 text-xs font-medium rounded-full"
-                style={{
-                  backgroundColor: `${themeColors.primaryColor}15`,
-                  color: themeColors.primaryColor,
-                  border: `1px solid ${themeColors.primaryColor}30`,
-                }}
-              >
-                {item}
-              </span>
-            ))}
+            {["Frontend Specialization", "Modern Web Development"].map(
+              (item, i) => (
+                <span
+                  key={i}
+                  className="px-3 py-1 text-xs font-medium rounded-full"
+                  style={{
+                    backgroundColor: `${themeColors.primaryColor}15`,
+                    color: themeColors.primaryColor,
+                    border: `1px solid ${themeColors.primaryColor}30`,
+                  }}
+                >
+                  {item}
+                </span>
+              )
+            )}
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 [
   {
     "question": "What technologies do you specialize in?",
-    "answer": "I specialize in the modern Next.js ecosystem, combining full-stack development with DevOps principles. My core stack includes TypeScript, Next.js (App Router), and Docker for containerization. I build robust backends using both the MERN stack and serverless solutions like Convex, ensuring end-to-end type safety."
+    "answer": "I design and develop modern, responsive, and user-centric web interfaces using the Next.js ecosystem. With strong expertise in TypeScript and the App Router architecture, I focus on creating smooth user experiences, reusable component systems, and visually engaging designs that scale beautifully across devices."
   },
   {
     "question": "What kind of projects have you built?",
@@ -14,10 +14,6 @@
   {
     "question": "How do you ensure code quality and stability?",
     "answer": "I enforce a strict quality standard using Husky, ESLint, and Prettier for pre-commit checks. Beyond syntax, I use Docker to prevent 'it works on my machine' issues, and I strictly validate all data using Zod to ensure type integrity across the full stack."
-  },
-  {
-    "question": "Do you have full-stack development experience?",
-    "answer": "Yes, I am comfortable across the entire stack. I build scalable backends using Node.js/Express (MERN) and Serverless (Convex). My expertise includes designing database schemas (MongoDB/MySQL), handling complex state with Redux/TanStack Query, and securing APIs with Clerk or custom JWT implementation."
   },
   {
     "question": "Are your projects mobile responsive?",

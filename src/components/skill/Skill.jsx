@@ -65,48 +65,48 @@ const SkillsSection = () => {
         },
       ],
     },
-    backend: {
-      title: "MERN Stack & Security",
-      description:
-        "Server-side and security technologies for full-stack capability.",
-      icons: [
-        {
-          name: "MongoDB",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-          tooltipColor: "#47A248",
-        },
-        {
-          name: "Express.js",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-          tooltipColor: "#000000",
-        },
-        {
-          name: "Node.js",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-          tooltipColor: "#339933",
-        },
-        {
-          name: "Auth.js",
-          src: "https://authjs.dev/img/etc/logo-sm.webp",
-          tooltipColor: "#000000",
-        },
-        {
-          name: "Zod",
-          src: "https://raw.githubusercontent.com/colinhacks/zod/HEAD/logo.svg",
-          tooltipColor: "#3E67A6",
-        },
-        {
-          name: "Bcrypt",
-          src: "",
-          tooltipColor: "#000000",
-        },
-        {
-          name: "JWT",
-          src: "https://jwt.io/img/pic_logo.svg",
-          tooltipColor: "#000000",
-        },
-      ],
-    },
+    // backend: {
+    //   title: "MERN Stack & Security",
+    //   description:
+    //     "Server-side and security technologies for full-stack capability.",
+    //   icons: [
+    //     {
+    //       name: "MongoDB",
+    //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    //       tooltipColor: "#47A248",
+    //     },
+    //     {
+    //       name: "Express.js",
+    //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    //       tooltipColor: "#000000",
+    //     },
+    //     {
+    //       name: "Node.js",
+    //       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    //       tooltipColor: "#339933",
+    //     },
+    //     {
+    //       name: "Auth.js",
+    //       src: "https://authjs.dev/img/etc/logo-sm.webp",
+    //       tooltipColor: "#000000",
+    //     },
+    //     {
+    //       name: "Zod",
+    //       src: "https://raw.githubusercontent.com/colinhacks/zod/HEAD/logo.svg",
+    //       tooltipColor: "#3E67A6",
+    //     },
+    //     {
+    //       name: "Bcrypt",
+    //       src: "",
+    //       tooltipColor: "#000000",
+    //     },
+    //     {
+    //       name: "JWT",
+    //       src: "https://jwt.io/img/pic_logo.svg",
+    //       tooltipColor: "#000000",
+    //     },
+    //   ],
+    // },
     other: {
       title: "Tools & Professional Workflow",
       description:

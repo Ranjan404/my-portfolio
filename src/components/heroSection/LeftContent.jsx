@@ -34,7 +34,8 @@ function LeftContent() {
           <span>
             <Typewriter
               options={{
-                strings: ["Frontend", "MERN Stack"],
+                // strings: ["Frontend", "MERN Stack"],
+                strings: ["Frontend", "React Js"],
                 autoStart: true,
                 loop: true,
               }}
